@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Door Bell</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="left-menu">
+                <div class="judul">
+                    <h1>
+                        Smart Door Bell System
+                        <img src="image/star.png" alt="">
+                    </h1>                    
+                </div>
+                <div class="audio">
+                    <div class="perintah">
+                        <h1>Silahkan memilih audio yang sesuai dengan tamu yang ditampilkan pada gambar disamping</h1>
+                    </div>
+                    <div class="list-audio">
+                        <div class="audio">Audio 1</h1></div>
+                        <div class="audio">Audio 2</h1></div>
+                        <div class="audio">Audio 3</h1></div>
+                        <div class="audio">Audio 4</h1></div>
+                    </div>
+                </div>
+                <div class="audio-terpilih">
+                    <h2>Audio Yang Dipilih :</h2>
+                    <div class="display">
+                        <form action="/send" method="post">
+                            <input type="text" class="audio-kirim" id="audio_kirim" name="audio_kirim">
+                            <button type="submit" class="send">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="right-menu">
+                <img src="image/start.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script>    
+    const sendBtn = document.getElementsByClassName('send')[0];
+    const audios = document.getElementsByClassName('audio');
+    const listAudios = Array.prototype.slice.call(audios);
+    const audio_kirim = document.getElementsByClassName('audio-kirim')[0];
+
+    listAudios.forEach((audio,i) => {
+        audio.addEventListener('click',()=>{
+            if(i!=0){
+                audio_kirim.value = audios[i].innerHTML;
+            }
+        });
+    });   
+</script>
+</html>
