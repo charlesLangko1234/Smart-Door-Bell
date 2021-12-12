@@ -10,5 +10,5 @@ Kesulitan karena tidak memantau tamu yang datang ke rumah karena tidak sedang be
 ## Packaging
 <a href="#Packaging"></a>
 ### Bentuk Fisik Alat
-<img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/211562.jpg" alt="Bentuk Luar Alat"/>
+<img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/211562.jpg" alt="Bentuk Luar Alat" width="200px"/>
 
