@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #4e4246;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url('./../image/Web_design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .menu {
+    width: 80vw;
+    height: 75vh;
+    /* border: 1px solid black; */
+    margin: 90px auto;
+    display: flex;
+}
+
+.container .menu .right-menu {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 434px;
+    background-color: #4A403E;
+}
+
+
+/* LEFT MENU START */
+.container .menu .left-menu {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 1200px;
+}
+
+.container .menu .left-menu .audio-terpilih {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .menu .left-menu .audio-terpilih .display {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+/* START INPUT AUDIO */
+.container .menu .left-menu .audio-terpilih .display .audio-kirim {
+    height: 50px;
+    width: 400px;
+    border: none;
+    border: 5px solid #4A403E;
+    background-color: #CCBFAF;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container .menu .left-menu .audio-terpilih .display .audio-kirim:focus{
+    outline: none;
+}
+/* END INPUT AUDIO */
+
+/* START BUTTON SEND AUDIO */
+.container .menu .left-menu .audio-terpilih .display .send {
+    height: 62px;
+    width: 90px;
+    border: 5px solid #4A403E;
+    background-color: #4A403E;
+    color: #CCBFAF;
+    font-size: 20px;
+}
+
+.container .menu .left-menu .audio-terpilih .display .send:focus{
+    outline: none;
+}
+
+.container .menu .left-menu .audio-terpilih .display .send:active{
+    opacity: 1;
+}
+
+.container .menu .left-menu .audio-terpilih .display .send:hover{
+    transition: 200ms;
+    opacity: 0.8;
+}
+/* END BUTTON SEND AUDIO */
+
+/* LEFT MENU JUDUL */
+.container .menu .left-menu .judul {
+    width: 100%;
+    height: 250px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.container .menu .left-menu .judul h1 {
+    font-size: 120px;
+    margin-top: 5px;
+    padding-left: 30px;
+    line-height: 100px;
+}
+/* END LEFT MENU JUDUL */
+
+.container .menu .left-menu .audio {
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+/* MENU PERINTAH */
+.container .menu .left-menu .audio .perintah {
+    width: 70%;
+    height: 76%;
+    border-bottom: 5px solid black;
+    text-align: center;
+    padding: 30px;
+}
+/* END MENU PERINTAH */
+
+/* START MENU LIST PERINTAH */
+.container .menu .left-menu .audio .list-audio {
+    width: 30%;
+    height: 100%;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    overflow-y: scroll;
+}
+
+.container .menu .left-menu .audio .list-audio::-webkit-scrollbar {
+    display: none;
+  }
+
+.container .menu .left-menu .audio .list-audio .audio {
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* END MENU LIST PERINTAH */
+/* LEFT MENU END */
