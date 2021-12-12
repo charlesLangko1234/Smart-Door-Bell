@@ -29,8 +29,26 @@ Untuk pengunaan pertama kali, terdapat beberapa hal yang harus di setup terlebih
 #### WiFi
 Setup yang harus dilakukan awalnya adalah WiFi. Disini, ssid dan password wifi harus disesuaikan dengan milik penggunan. Semua komponen juga harus terkoneksi dengan ssid dan password yang sama agar dapat bekerja.
 <pre>
+// Masukan dengan nama wifi
 const char* ssid = "*************";
+// Masukan dengan password
 const char* password = "***************";
-const char* mqtt_server = "broker.hivemq.com";
 </pre>
 
+#### Website
+Sebelum menggunakan source code dari website juga, ada beberapa package yang harus diinstal terlebih dahulu. Berikut adalah code untuk windows untuk emnginstall package website :
+<pre>
+$ npm install express
+$ npm install ejs
+$ npm install mqtt --save
+$ npm install -g browserify
+$ npm install --save multer
+</pre>
+
+#### SD Card DFPlayer
+DFPlayer sendiri menggunakan folder tertentu yang bisa dideteksi untuk bisa memainkan audio yang diingin. Berikut adalah directory yang perlu dibuat untuk menyimpan audio untuk pesan.
+<pre>
+1. Pastikan format SD card adalah FAT32
+2. Buat folder mp3
+3. Save audio dengan format nama angka 0000-9999 dan diakhiri dengan .mp3
+</pre>
