@@ -1,7 +1,10 @@
 # SMART DOOR BELL
-<img src="https://i.pinimg.com/236x/a6/52/02/a652029f609b5ef2c92ffb0f18be3af8.jpg" alt="Door Bell" width="200" position="left"/>
-Halo Semuanya
 
-***
+Kesulitan karena tidak memantau tamu yang datang ke rumah karena tidak sedang berada di rumah merupakan masalah yang berusaha project kami selesaikan. Berdasar dari masalah inilah kami berusaha membuat **Smart Door Bell** yang mana akan membantu pemilik rumah dalam pemantauan tamu saat dia tidak berada di rumah. Alat ini dilengkapi juga dengan sistem pemutar audio, sehingga pemilik rumah bisa menympaikan pesannya kepada tamu ketika tidak sedang berada di rumah.
+
+<ul>
+  <li> Fungsionalitas
+</ul>
+
 
 
