@@ -9,7 +9,6 @@ Kesulitan karena tidak bisa memantau tamu yang datang ke rumah karena tidak seda
 
 ## Packaging
 <div id="Packaging"></div>
-### Bentuk Fisik Alat
 <img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/Bentuk%20Fisik%20ALat.jpg" align="left" alt="Bentuk Luar Alat" style="width: 200px; height:400px;"/>
   Berikut adalah gambaran fisik bentuk alat. Packaging alat ini dibuat dengan menempatkan komponen kedalam project box X5 berukuran 14.5 x 9.5 x 5 cm. Project box juga diberi lubang untuk speaker, kamera, infrared sensor, serta lubang untuk menghubungkan Smart Door Bell dengan sumber tegangan. Bahan project box ini juga membuat alat ini lebih ringan.<br>
   <br>
