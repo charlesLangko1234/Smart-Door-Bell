@@ -10,7 +10,7 @@ Kesulitan karena tidak memantau tamu yang datang ke rumah karena tidak sedang be
 ## Packaging
 <a href="#Packaging"></a>
 ### Bentuk Fisik Alat
-<div style="display: flex; flex-direction: column;">
+<div style="display: flex; flex-direction: column; width: 230px;">
   <img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/211562.jpg" alt="Bentuk Luar Alat" style="width: 200px;"/>
   <img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/Bagian%20Dalam%20Alat.jpg" alt="Bagian Dalam Alat" style="width: 200px;"/>
 </div>
