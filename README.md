@@ -22,7 +22,15 @@ Kesulitan karena tidak bisa memantau tamu yang datang ke rumah karena tidak seda
 <img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/Website.jpg" style="width: 100%; height:400px;"/>
 Cara kerja alat ini cukup mudah, yaitu ketika alat dihubugnkan dengan sumber tegangan, maka seluruh komponen yang bekerja akan menyala. Setelah akan ada jeda waktu selama beberapa detik agar Smart Door Bell berkonfigurasi dengan WiFi. Setelah terkonfigurasi, maka ESP32 cam akan membuat server yang menampilkan gambar secara terus menerus. Lalu link server yang menampilkan gambar tersebut diambil dan dimasukan kedalam website yang sudah dibuat khusus untuk alat ini. Setelah itu, gambar tamu bisa muncul secara real time.<br><br>
 Proses pengiriman pesan sendiri dilakukan dengan menggunakan MQTT, dimana data audio pertama dipilih terlebih dahulu dari list data yang sudah ditampilkan di website Smart Door Bell System. Setelah di click dan dipastikan, data tersebut tinggal dikirim ke ESP32 via MQTT. Data tersebut lalu akan diproses dan menghasilkan ID tertentu yang sesuai dengan audio. Setelah itu, ID tersebut ke DFPlayer dan audio tersebut akan di play.<br><br>
-Alat ini juga dilengkapi dengan Blitz yang akan menyala ketika tamu mendekatkan wajah ke alat Smart Door Bell. IR sensor akan mendeteksi adanya halangan didepannya, lalu blitz kamera akan dinyalakan. 
+Alat ini juga dilengkapi dengan Blitz yang akan menyala ketika tamu mendekatkan wajah ke alat Smart Door Bell. IR sensor akan mendeteksi adanya halangan didepannya, lalu blitz kamera akan dinyalakan. <br><br>
 
-
+### Setup Alat
+Untuk pengunaan pertama kali, terdapat beberapa hal yang harus di setup terlebih dahulu sebelum digunakan, yaitu :
+#### WiFi
+Setup yang harus dilakukan awalnya adalah WiFi. Disini, ssid dan password wifi harus disesuaikan dengan milik penggunan. Semua komponen juga harus terkoneksi dengan ssid dan password yang sama agar dapat bekerja.
+<pre>
+const char* ssid = "*************";
+const char* password = "***************";
+const char* mqtt_server = "broker.hivemq.com";
+</pre>
 
