@@ -3,10 +3,29 @@
 Kesulitan karena tidak bisa memantau tamu yang datang ke rumah karena tidak sedang berada di rumah merupakan masalah yang berusaha project kami selesaikan. Berdasar dari masalah inilah kami berusaha membuat **Smart Door Bell** yang mana akan membantu pemilik rumah dalam pemantauan tamu saat dia tidak berada di rumah. Alat ini dilengkapi juga dengan sistem pemutar audio, sehingga pemilik rumah bisa menympaikan pesannya kepada tamu ketika tidak sedang berada di rumah.
 
 <ul>
+  <li><a href="#buatAlat">Pembuatan Alat</a>
   <li><a href="#Packaging">Packaging</a>
   <li><a href="#software_module">Software Module</a>
-  <li><a href="#buatAlat">Pembuatan Alat</a>
 </ul>
+
+## Pembuatan Alat
+<div id="buatAlat"></div>
+
+### Komponen
+<ol>
+  <li> ESP32 Cam
+  <li> ESP32
+  <li> Speaker 8 Ohm
+  <li> DFPlayer
+  <li> IR Sensor
+  <li> LED
+  <li> Resistor
+  <li> Micro USB dip Socket
+</ol>
+
+### Rangkaian 
+<img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/Rangkaian.jpg" alt="Rangkaian"/>
+
 
 ## Packaging
 <div id="Packaging"></div>
@@ -53,22 +72,3 @@ DFPlayer sendiri menggunakan folder tertentu yang bisa dideteksi untuk bisa mema
 2. Buat folder mp3
 3. Save audio dengan format nama angka 0000-9999 dan diakhiri dengan .mp3
 </pre>
-
-
-## Pembuatan Alat
-<div id="buatAlat"></div>
-
-### Komponen
-<ol>
-  <li> ESP32 Cam
-  <li> ESP32
-  <li> Speaker 8 Ohm
-  <li> DFPlayer
-  <li> IR Sensor
-  <li> LED
-  <li> Resistor
-  <li> Micro USB dip Socket
-</ol>
-
-### Rangkaian 
-<img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/Rangkaian.jpg" alt="Rangkaian"/>
