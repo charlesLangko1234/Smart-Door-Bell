@@ -10,5 +10,6 @@ Kesulitan karena tidak memantau tamu yang datang ke rumah karena tidak sedang be
 ## Packaging
 <a href="#Packaging"></a>
 ### Bentuk Fisik Alat
+Berikut adalah gambaran fisik bentuk alat.
 <img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/211562.jpg" alt="Bentuk Luar Alat" style="width: 200px; float:left;"/>
 
