@@ -6,8 +6,8 @@
 
 //--------------------------------------------------------
 // Connection setup
-const char* ssid = "Tracen";
-const char* password = "qwertyui";
+const char* ssid = "**********";
+const char* password = "**********";
 const char* mqtt_server = "broker.hivemq.com";
 //--------------------------------------------------------
 
