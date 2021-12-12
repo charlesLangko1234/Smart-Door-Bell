@@ -15,7 +15,7 @@ Kesulitan karena tidak bisa memantau tamu yang datang ke rumah karena tidak seda
   <br>
   Dibagian dalam alat sendiri sudah terdapat bebrapa komponen, yaitu DFPlayer mini, speaker 8 ohm, LED, IR Sensor, ESP32 Cam, ESP32, serta micro usb dip socket. Bagian dalam alat sendiri masih menggunakan jumper untuk menghubungkan setiap komponen. PCB tidak digunakan karena ukurannya yang besar dan akan mengubah tata letak kompoonen. Namun, untuk mengurangi ketidakteraturan tersebut, digunakan kabeltis untuk mengatur kabel didalam alat.
   
-<br><br><br><br><br>
+<br><br><br><br><br><br>
 ## Cara Kerja
 <a href="#software_module"></a>
 
