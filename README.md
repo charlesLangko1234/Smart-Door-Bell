@@ -57,6 +57,7 @@ DFPlayer sendiri menggunakan folder tertentu yang bisa dideteksi untuk bisa mema
 
 ## Pembuatan Alat
 <div id="buatAlat"></div>
+
 ### Komponen
 <ol>
   <li> ESP32 Cam
