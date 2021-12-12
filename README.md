@@ -5,6 +5,7 @@ Kesulitan karena tidak bisa memantau tamu yang datang ke rumah karena tidak seda
 <ul>
   <li><a href="#Packaging">Packaging</a>
   <li><a href="#software_module">Software Module</a>
+  <li><a href="#buatAlat">Pembuatan Alat</a>
 </ul>
 
 ## Packaging
@@ -52,3 +53,21 @@ DFPlayer sendiri menggunakan folder tertentu yang bisa dideteksi untuk bisa mema
 2. Buat folder mp3
 3. Save audio dengan format nama angka 0000-9999 dan diakhiri dengan .mp3
 </pre>
+
+
+## Pembuatan Alat
+<div id="buatAlat"></div>
+### Komponen
+<ol>
+  <li> ESP32 Cam
+  <li> ESP32
+  <li> Speaker 8 Ohm
+  <li> DFPlayer
+  <li> IR Sensor
+  <li> LED
+  <li> Resistor
+  <li> Micro USB dip Socket
+</ol>
+
+### Rangkaian 
+<img src="https://github.com/charlesLangko1234/Smart-Door-Bell/blob/main/Documentation/Rangkaian.jpg" alt="Rangkaian"/>
